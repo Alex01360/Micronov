@@ -1,0 +1,75 @@
+form {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 20px 0;
+
+    .Nom,
+    .Mail,
+    .Objet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 400px;
+        margin-bottom: 15px;
+    }
+
+    .Message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+
+    input:hover,
+    textarea:hover {
+        border: solid green 3px;
+    }
+
+    button {
+        background-color: green;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 20px;
+        width: 100px;
+
+        p {
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.Nom label,
+.Mail label,
+.Objet label,
+.Message label {
+    padding-bottom: 10px;
+}
+
+.Nom input,
+.Mail input,
+.Objet input {
+    width: 400px;
+    height: 30px;
+}
+
+.Message textarea {
+    min-width: 400px;
+    max-width: 400px;
+    height: 150px;
+}

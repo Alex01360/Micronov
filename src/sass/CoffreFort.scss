@@ -1,0 +1,402 @@
+.Page-Coffre-Fort-Numérique{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+width: 1400px;
+padding: 20px 0px;
+}
+
+.Construire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    padding-bottom: 20px;
+}
+
+.Solutions {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1310px;
+}
+
+.Solutions p {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Solutions svg {
+    color: rgb(119, 177, 119);
+    font-size: 60px;
+}
+
+.Gestionnaire-Cabinet-Assistant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+
+    p {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 0;
+        width: 260px;
+    }
+}
+
+.Texte-Gestionnaire,
+.Texte-Cabinet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    padding: 20px 0px;
+}
+
+.Texte-Assistant svg {
+    display: block;
+}
+
+.Coffre-Fort {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid green 15px;
+    border-radius: 20px;
+    width: 500px;
+
+    p {
+        text-transform: none;
+        font-weight: 100;
+    }
+
+    li {
+        padding-bottom: 10px;
+    }
+}
+
+.Enfants-Conseil-Expertise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+
+    p {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 0;
+        width: 270px;
+    }
+}
+
+.Texte-Enfants,
+.Texte-Conseil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    width: 365px;
+}
+
+.Texte-Expertise svg {
+    display: block;
+}
+
+.Proche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+
+    p {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 20px;
+        margin: 0;
+        width: 235px;
+    }
+
+    svg {
+        color: rgb(119, 177, 119);
+        font-size: 60px;
+    }
+}
+
+.Assistant-Assureurs-Expertise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+    p {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 20px 0px;
+        margin: 0;
+        height: 40px;
+    }
+
+    svg {
+        color: rgb(119, 177, 119);
+        font-size: 60px;
+    }
+}
+
+
+.Texte-Assistant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+
+    p {
+        text-align: center;
+        width: 150px;
+    }
+}
+
+.Texte-Assureurs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+
+    p {
+        text-align: center;
+        width: 120px;
+    }
+}
+
+.Texte-Expertise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+
+    p {
+        text-align: center;
+        width: 200px;
+    }
+}
+
+.Associés-Partenaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+
+    p {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 20px;
+        margin: 0;
+        width: 270px;
+    }
+
+    svg {
+        color: rgb(119, 177, 119);
+        font-size: 60px;
+    }
+}
+
+.Texte-Associés-Partenaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 370px;
+}
+
+.Gestionnaire-Commissaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+
+    p {
+        background-color: green;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        padding: 20px;
+        margin: 0;
+        width: 300px;
+    }
+
+    svg {
+        color: rgb(119, 177, 119);
+        font-size: 60px;
+    }
+}
+
+.Texte-Gestionnaire-Commissaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 365px;
+}
+
+.Partage-Adhérents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+    p {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 20px;
+        margin: 0;
+        height: 40px;
+    }
+
+    svg {
+        color: rgb(119, 177, 119);
+        font-size: 60px;
+    }
+}
+
+.Texte-Partage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.Texte-Adhérents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+}
+
+.Bon-à-Savoir {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 10px blue;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 1200px;
+
+    h1 {
+        width: 150px;
+    }
+
+    p {
+        width: 1000px;
+    }
+}
+
+.Coffre-Fort-Numérique {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px 0px;
+    width: 1800px;
+    gap: 90px;
+}
+
+.Texte-Coffre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    width: 600px;
+}
+
+.Texte-Coffre h1 {
+    text-align: center;
+}
+
+.Texte-Coffre p {
+    width: 600px;
+}
+
+.Texte-Coffre ul {
+    padding-left: 20px;
+    width: 600px;
+
+    li {
+        width: 550px;
+        padding-bottom: 10px;
+    }
+}
+
+.Photo-Lien-Coffre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+
+    img{
+    width: 1000px;
+    }
+
+    button{
+        background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    }
+
+a{
+text-decoration: none;
+color: black;
+}
+
+    p{
+    margin: 0;
+    }
+}
+

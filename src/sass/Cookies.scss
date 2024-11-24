@@ -1,0 +1,111 @@
+.Cookies {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1620px;
+    padding: 20px 0px;
+}
+
+.Texte-Présentation-Cookies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+
+    p {
+        width: 1100px;
+    }
+
+    li {
+        padding-bottom: 20px;
+    }
+}
+
+.Cookies-Utilisés {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+}
+
+.Titre-Cookies {
+    width: 350px;
+}
+
+.Tableau-Cookies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    padding: 20px 0px;
+
+    tr {
+        display: flex;
+        justify-content: center;
+        width: 1600px;
+    }
+
+    th,
+    td {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: solid rgb(110, 102, 102) 2px;
+        padding: 20px 0px;
+    }
+}
+
+.Colonne-1 {
+    width: 150px;
+}
+
+.Colonne-2 {
+    width: 100px;
+}
+
+.Colonne-3 {
+    width: 110px;
+}
+
+.Colonne-4 {
+    width: 300px;
+}
+
+.Colonne-5 {
+    width: 150px;
+}
+
+.Colonne-6 {
+    width: 700px;
+}
+
+.Consentement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+
+    p {
+        width: 1100px;
+    }
+
+    ul {
+        width: 1100px;
+    }
+
+    li {
+        padding-bottom: 10px;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,294 @@
+.Header {
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    top: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.Container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1800px;
+}
+
+.Container-3 {
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 730px;
+    gap: 20px;
+    border-radius: 20px;
+    transform: skew(-30deg);
+}
+
+.Container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+    transform: skew(30deg);
+
+    svg {
+        background-color: green;
+        font-size: 30px;
+        border-radius: 50%;
+        padding: 15px;
+    }
+}
+
+.Texte-Horaires {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+}
+
+.Container-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 250px;
+    transform: skew(30deg);
+
+    svg {
+        background-color: green;
+        font-size: 30px;
+        border-radius: 50%;
+        padding: 15px;
+    }
+}
+
+.Texte-Assistance {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+}
+
+.Container-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 690px;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    button {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width: 420px;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    svg {
+        background-color: white;
+        font-size: 30px;
+        border-radius: 50%;
+        padding: 10px;
+    }
+}
+
+.Container-8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    width: 1920px;
+}
+
+.Logo-Micronov {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    width: 130px;
+}
+
+.Container-9 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 1600px;
+
+    h1 {
+        background-color: rgba(0, 0, 0, 0.24);
+        padding: 20px;
+        margin: 0;
+        border-radius: 30px;
+    }
+}
+
+.Container-10 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+}
+
+.Container-10:hover .Texte-Vous-Etes {
+    background-color: white;
+    display: block;
+    width: 260px;
+    transition: 0.8 ease-in-out;
+}
+
+.Titre-Vous-Etes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titre-Vous-Etes:hover::after {
+    position: absolute;
+    background-color: transparent;
+    content: "";
+    width: 340px;
+    height: 350px;
+    top: 0px;
+}
+
+.Titre-Vous-Etes:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.Texte-Vous-Etes {
+    position: absolute;
+    background-color: white;
+    color: black;
+    display: none;
+    width: 260px;
+    top: 100px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h1 {
+        width: 160px;
+    }
+
+    p {
+        border-bottom: solid 2px rgb(158, 50, 50);
+        padding: 20px;
+        margin: 0;
+    }
+}
+
+.Texte-Vous-Etes p:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.Titre-Coffre-Fort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.Titre-Coffre-Fort:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.Container-11 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.Container-11:hover .Texte-Eco-Système {
+    display: block;
+    width: 320px;
+}
+
+.Titre-Eco-Système {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+}
+
+.Titre-Eco-Système:hover::after {
+    position: absolute;
+    background-color: transparent;
+    content: "";
+    width: 300px;
+    height: 300px;
+    top: 0px;
+}
+
+.Titre-Eco-Système:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.Texte-Eco-Système {
+    position: absolute;
+    background-color: white;
+    color: black;
+    display: none;
+    width: 300px;
+    top: 100px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    p {
+        border-bottom: solid 2px rgb(158, 50, 50);
+        padding: 20px;
+        margin: 0;
+    }
+
+    p:hover {
+        background-color: gray;
+        cursor: pointer;
+    }
+}
+
+.Titre-Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+    a{
+text-transform: none;
+color: white;
+    }
+}

@@ -1,0 +1,106 @@
+.Footer {
+  background-color: rgb(59, 65, 62);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 1920px;
+  margin-top: 20px;
+}
+
+.Colonne-Contact-Informations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 800px;
+}
+
+.Contact {
+  background-color: rgb(52 33 32);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding: 10px;
+}
+
+.Texte-Contact h1 {
+  text-align: center;
+  width: 200px;
+}
+
+.Information-Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    width: 350px;
+  }
+}
+
+.Icone-Texte-Contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+}
+
+.Information {
+  background-color: rgb(52 33 32);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+}
+
+.Texte-Informations h1 {
+  text-align: center;
+  width: 300px;
+}
+
+.Rubriques-Informations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icone-Texte-Informations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  p{
+  width: 150px;
+  }
+}
+
+.Icone-Texte-Informations:hover,
+.Icone-Texte-Informations p:hover{
+  cursor: pointer;
+  color: green;
+}
+
+.Voiture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  padding: 20px;
+}

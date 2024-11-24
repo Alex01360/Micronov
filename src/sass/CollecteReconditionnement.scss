@@ -1,0 +1,80 @@
+.Collecte {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1850px;
+    padding: 20px 0px;
+}
+
+.Titre-Collecte {
+    width: 620px;
+}
+
+.Partenaire {
+    padding-top: 20px;
+
+    li {
+        padding: 5px;
+    }
+}
+
+.Liste {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1800px;
+    padding-bottom: 20px;
+}
+
+.Liste-1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 290px;
+
+    ul {
+        width: 430px;
+        height: 190px;
+    }
+}
+
+.Liste-2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 280px;
+
+    ul {
+        height: 130px;
+        width: 400px;
+    }
+
+    p {
+        width: 500px;
+    }
+}
+
+.Liste-3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 110px;
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+}
